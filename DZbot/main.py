@@ -105,7 +105,7 @@ def start_command(message):
                 bot.send_message(message.chat.id, '\n \n \n \n ')
             elif message.text == 'Фото дневника 📙':
                 bot.send_message(message.chat.id, 'Фото дневника 📙')
-                p = open("YOUR.jpg", 'rb')
+                p = open("d.jpg", 'rb')
                 bot.send_photo(message.chat.id, p )
             elif message.text == 'Рассписание звонков 🛎️':
                 bot.send_message(message.chat.id, '\n1) 8.30-9.15         \n2) 9.30-10.15        \n3) 10.30-11.15         \n4) 11.30-12.15           \n5) 12.30 -13.15          \n6) 13.30-14.15         \n7) 14.30-15.05        \n8) 15.10-15.55')
